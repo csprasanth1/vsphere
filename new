@@ -38,3 +38,4 @@ Select Name,
 
 
 @{N='Memory Free GB';E={[math]::Round(($_.MemoryTotalGB - $_.MemoryUsageGB),2)}}
+Export-Csv -Path C:\report.csv -NoTypeInformation -UseCulture
