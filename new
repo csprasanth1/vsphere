@@ -4,3 +4,34 @@ get the host with the most free memoryGet-Cluster myCluster0 | Get-VMHost | Sele
 
 
 http://yadhutony.blogspot.com/2019/09/get-cluster-resources-using-powercli.html
+Cluster                       : SA-Compute-01
+ClusterCPUCores               :
+ClusterAllocatedvCPUs         : 5
+ClustervCPUpCPURatio          : Infinity
+ClusterEffectiveMemoryGB      : 0
+ClusterAllocatedMemoryGB      : 4
+ClusterActiveMemoryPercentage : 19
+ClusterFreeDiskspaceGB        : 358
+
+Cluster                       : SA-Workload-Cluster
+ClusterCPUCores               :
+ClusterAllocatedvCPUs         : 17
+ClustervCPUpCPURatio          : Infinity
+ClusterEffectiveMemoryGB      : 0
+ClusterAllocatedMemoryGB      : 28
+ClusterActiveMemoryPercentage : 26
+ClusterFreeDiskspaceGB        : 358
+
+Cluster                       : SA-Management-Edge
+ClusterCPUCores               :
+ClusterAllocatedvCPUs         : 29
+ClustervCPUpCPURatio          : Infinity
+ClusterEffectiveMemoryGB      : 0
+ClusterAllocatedMemoryGB      : 74
+ClusterActiveMemoryPercentage : 58
+ClusterFreeDiskspaceGB        : 358
+
+
+
+PS C:\Users\administrator.VCLASS>
+
