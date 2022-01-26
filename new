@@ -1,0 +1,3 @@
+Get-Cluster myCluster0 | Get-VMHost | Select-Object Name,    @{n="CpuMhzFree"; e={$_.CpuTotalMhz - $_.CpuUsageMhz}} | Sort-Object -Property CpuMhzFree -Descending | Select -First 1
+
+get the host with the most free memoryGet-Cluster myCluster0 | Get-VMHost | Select-Object Name,    @{n="MemGBFree"; e={$_.MemoryTotalGB - $_.MemoryUsageGB}} | Sort-Object -Property MemGBFree -Descending | Select -First 1
