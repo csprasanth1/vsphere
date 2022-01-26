@@ -5,3 +5,36 @@ get the host with the most free memoryGet-Cluster myCluster0 | Get-VMHost | Sele
 
 Get-Cluster -Name  | get-vmhost | select Name, NumCpu, CpuUsageMhz, CPUTotalMhz, MemoryUsageGB, MemoryTotalGB | Export-Csv -NoTypeInformation -UseCulture -Path c:\temp\cluster.csv
 
+Get-Cluster -Name SA-Compute-01 |
+
+
+
+Get-VMHost|
+
+
+
+Select Name,
+
+
+
+@{N='CPU GHz Capacity';E={[math]::Round($_.CpuTotalMhz/1000,2)}},
+
+
+
+@{N='CPU GHz Used';E={[math]::Round($_.CpuUsageMhz/1000,2)}},
+
+
+
+@{N='CPU GHz Free';E={[math]::Round(($_.CpuTotalMhz - $_.CpuUsageMhz)/1000,2)}},
+
+
+
+@{N='Memory Capacity GB';E={[math]::Round($_.MemoryTotalGB,2)}},
+
+
+
+@{N='Memory Used GB';E={[math]::Round($_.MemoryUsageGB,2)}},
+
+
+
+@{N='Memory Free GB';E={[math]::Round(($_.MemoryTotalGB - $_.MemoryUsageGB),2)}}
