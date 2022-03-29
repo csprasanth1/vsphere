@@ -1,0 +1,1149 @@
+{
+   "assetId":3,
+   "nfName":"NFReq1",
+   "type":"CNF",
+   "createdBy":"admin",
+   "createdOn":"2022-03-23T05:58:01.000+00:00",
+   "updatedBy":"admin",
+   "updatedOn":"2022-03-23T05:58:01.000+00:00",
+   "categories":[
+      {
+         "categoryId":1,
+         "categoryName":"asset",
+         "fields":[
+            {
+               "fieldId":486,
+               "fieldName":"NF Name",
+               "fieldValue":"NFReq1",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":487,
+               "fieldName":"NF Capacity",
+               "fieldValue":"1000",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":488,
+               "fieldName":"Type",
+               "fieldValue":"CNF",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":489,
+               "fieldName":"NF Capacity Unit",
+               "fieldValue":"1024",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":490,
+               "fieldName":"NF Version",
+               "fieldValue":"10",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":491,
+               "fieldName":"Vendor",
+               "fieldValue":"Qualcom",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":492,
+               "fieldName":"Form Status",
+               "fieldValue":"Testing",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":493,
+               "fieldName":"Environment",
+               "fieldValue":"TestLab",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":494,
+               "fieldName":"Version",
+               "fieldValue":"10",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            }
+         ]
+      },
+      {
+         "categoryId":2,
+         "categoryName":"capacity",
+         "fields":[
+            {
+               "fieldId":495,
+               "fieldName":"Number of Nodes",
+               "fieldValue":"2",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":496,
+               "fieldName":"Cluster Instance Name",
+               "fieldValue":"NFReq2Cluster",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  {
+                     "fieldId":497,
+                     "fieldName":"Cluster type",
+                     "fieldValue":"Management",
+                     "isCustom":false,
+                     "parameters":[
+                        
+                     ],
+                     "children":[
+                        {
+                           "fieldId":498,
+                           "fieldName":"Node type",
+                           "fieldValue":"Worker",
+                           "isCustom":false,
+                           "parameters":[
+                              
+                           ],
+                           "children":[
+                              {
+                                 "fieldId":499,
+                                 "fieldName":"Node Pool",
+                                 "fieldValue":"",
+                                 "isCustom":false,
+                                 "parameters":[
+                                    
+                                 ],
+                                 "children":[
+                                    {
+                                       "fieldId":500,
+                                       "fieldName":"Node Name",
+                                       "fieldValue":"NFReq2Cluster Node 1.1.1",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":501,
+                                       "fieldName":"Node CPU",
+                                       "fieldValue":"32",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":502,
+                                       "fieldName":"Node CPU Unit",
+                                       "fieldValue":"GB",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":503,
+                                       "fieldName":"Node Memory",
+                                       "fieldValue":"32",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":504,
+                                       "fieldName":"Node Memory Unit",
+                                       "fieldValue":"MB",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":505,
+                                       "fieldName":"Node Ephemeral Storage",
+                                       "fieldValue":"344",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":506,
+                                       "fieldName":"Node Ephemeral Storage Unit",
+                                       "fieldValue":"MB",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    }
+                                 ]
+                              },
+                              {
+                                 "fieldId":507,
+                                 "fieldName":"Node Pool",
+                                 "fieldValue":"",
+                                 "isCustom":false,
+                                 "parameters":[
+                                    
+                                 ],
+                                 "children":[
+                                    {
+                                       "fieldId":508,
+                                       "fieldName":"Node Name",
+                                       "fieldValue":"NFReq2Cluster Node 1.1.2",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":509,
+                                       "fieldName":"Node CPU",
+                                       "fieldValue":"32",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":510,
+                                       "fieldName":"Node CPU Unit",
+                                       "fieldValue":"22D",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":511,
+                                       "fieldName":"Node Memory",
+                                       "fieldValue":"32",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":512,
+                                       "fieldName":"Node Memory Unit",
+                                       "fieldValue":"Gbi",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":513,
+                                       "fieldName":"Node Ephemeral Storage",
+                                       "fieldValue":"3200",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":514,
+                                       "fieldName":"Node Ephemeral Storage Unit",
+                                       "fieldValue":"MB",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        },
+                        {
+                           "fieldId":515,
+                           "fieldName":"Node type",
+                           "fieldValue":"Worker",
+                           "isCustom":false,
+                           "parameters":[
+                              
+                           ],
+                           "children":[
+                              {
+                                 "fieldId":516,
+                                 "fieldName":"Node Pool",
+                                 "fieldValue":"",
+                                 "isCustom":false,
+                                 "parameters":[
+                                    
+                                 ],
+                                 "children":[
+                                    {
+                                       "fieldId":517,
+                                       "fieldName":"Node Name",
+                                       "fieldValue":"NFReq2Cluster Node 1.2.1",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":518,
+                                       "fieldName":"Node CPU",
+                                       "fieldValue":"32",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":519,
+                                       "fieldName":"Node CPU Unit",
+                                       "fieldValue":"32D",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":520,
+                                       "fieldName":"Node Memory",
+                                       "fieldValue":"320",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":521,
+                                       "fieldName":"Node Memory Unit",
+                                       "fieldValue":"Gbi",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":522,
+                                       "fieldName":"Node Ephemeral Storage",
+                                       "fieldValue":"320",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    },
+                                    {
+                                       "fieldId":523,
+                                       "fieldName":"Node Ephemeral Storage Unit",
+                                       "fieldValue":"Gbi",
+                                       "isCustom":false,
+                                       "parameters":[
+                                          
+                                       ],
+                                       "children":[
+                                          
+                                       ]
+                                    }
+                                 ]
+                              }
+                           ]
+                        }
+                     ]
+                  }
+               ]
+            }
+         ]
+      },
+      {
+         "categoryId":3,
+         "categoryName":"dependency",
+         "fields":[
+            {
+               "fieldId":524,
+               "fieldName":"NUMA Alignment",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":525,
+               "fieldName":"NUMA Binding",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  {
+                     "key":"nosoftlockup",
+                     "value":""
+                  },
+                  {
+                     "key":"noswap",
+                     "value":""
+                  },
+                  {
+                     "key":"softlockup_panic",
+                     "value":""
+                  },
+                  {
+                     "key":"pcie_aspm.policy",
+                     "value":""
+                  },
+                  {
+                     "key":"intel_idle.max_cstate",
+                     "value":""
+                  },
+                  {
+                     "key":"mce",
+                     "value":""
+                  },
+                  {
+                     "key":"fsck.mod",
+                     "value":""
+                  },
+                  {
+                     "key":"default_hugepagesz",
+                     "value":""
+                  },
+                  {
+                     "key":"hugepagesz",
+                     "value":""
+                  }
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":526,
+               "fieldName":"Core Isolation",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":527,
+               "fieldName":"Core Reservation",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":528,
+               "fieldName":"Kernel Type",
+               "fieldValue":"false",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":538,
+               "fieldName":"hugepages",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":539,
+               "fieldName":"isolcpus",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":540,
+               "fieldName":"sctp",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":541,
+               "fieldName":"VRF",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":542,
+               "fieldName":"DPDK",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":543,
+               "fieldName":"lxcfs",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":544,
+               "fieldName":"tuned",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":545,
+               "fieldName":"pci-utils",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":546,
+               "fieldName":"ptp",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":547,
+               "fieldName":"additional_config",
+               "fieldValue":"conf1",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":548,
+               "fieldName":"file_injection",
+               "fieldValue":"true",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":549,
+               "fieldName":"isNumaConfigNeeded",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":550,
+               "fieldName":"latency_sensitivity",
+               "fieldValue":"true",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            }
+         ]
+      },
+      {
+         "categoryId":4,
+         "categoryName":"platform",
+         "fields":[
+            {
+               "fieldId":551,
+               "fieldName":"Kernel Version",
+               "fieldValue":"100",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":552,
+               "fieldName":"Helm Version",
+               "fieldValue":"100",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":553,
+               "fieldName":"Multus Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":554,
+               "fieldName":"Jenkins Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":555,
+               "fieldName":"Docker Registry Version",
+               "fieldValue":"true",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":556,
+               "fieldName":"HA Proxy Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":557,
+               "fieldName":"Keepalived Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":558,
+               "fieldName":"k8s.grc.io/coredns Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":559,
+               "fieldName":"k8s.grc.io/etcd Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":560,
+               "fieldName":"Istion Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":561,
+               "fieldName":"NGNIX Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":562,
+               "fieldName":"Prometheus Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":563,
+               "fieldName":"ChartMuseum Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":564,
+               "fieldName":"Calico Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":565,
+               "fieldName":"FluentD Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":566,
+               "fieldName":"Jaegertracing/all-in-one Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":567,
+               "fieldName":"Grafana Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":568,
+               "fieldName":"Elasticsearch Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":569,
+               "fieldName":"Kibana Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":570,
+               "fieldName":"GlusterFS Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":571,
+               "fieldName":"k8s.grc.io/metrics-server-amd64 Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":572,
+               "fieldName":"k8s dashboard Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":573,
+               "fieldName":"Alpine Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":574,
+               "fieldName":"MetalLB Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":575,
+               "fieldName":"metrics-server Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":576,
+               "fieldName":"Ingress Version",
+               "fieldValue":"",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            }
+         ]
+      },
+      {
+         "categoryId":5,
+         "categoryName":"operation",
+         "fields":[
+            {
+               "fieldId":577,
+               "fieldName":"Actualizar inventarios (CMDB)",
+               "fieldValue":"C1",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":578,
+               "fieldName":"Automatic Test Cases For Communication Layer",
+               "fieldValue":"C2",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":579,
+               "fieldName":"Automatic Test Cases for VIM/CISM Layer",
+               "fieldValue":"C1",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":580,
+               "fieldName":"Automatic Test Cases for the orchestrator",
+               "fieldValue":"C2",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":581,
+               "fieldName":"Health Check Automation",
+               "fieldValue":"C2",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":582,
+               "fieldName":"Regression / integration / e2e Test",
+               "fieldValue":"C3",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":583,
+               "fieldName":"Service Virtualization",
+               "fieldValue":"C2",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            },
+            {
+               "fieldId":584,
+               "fieldName":"Blue/green deployment",
+               "fieldValue":"C1",
+               "isCustom":false,
+               "parameters":[
+                  
+               ],
+               "children":[
+                  
+               ]
+            }
+         ]
+      }
+   ]
+}
